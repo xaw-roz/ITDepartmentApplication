@@ -8,8 +8,12 @@
 * compiled file, but it's generally better to create a new file per style scope.
 *
 *= require bootstrap
-*= require grails
-*= require main
 *= require mobile
 *= require_self
+*=require templatecss/animate.min
+*=require templatecss/cm-overlay
+*=require templatecss/imagehover
+*=require templatecss/style
+*=requre grails
+*=require main
 */

@@ -9,6 +9,13 @@
 //= require bootstrap
 //= require_tree .
 //= require_self
+//=require templatejs/jquery.cm-overlay
+//=require templatejs/jquery.flexisel
+//=require templatejs/jquery.cm-overlay
+//=require templatejs/wow.min
+//=require templatejs/move-top
+
+
 
 if (typeof jQuery !== 'undefined') {
     (function($) {

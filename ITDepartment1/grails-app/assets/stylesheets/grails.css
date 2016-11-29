@@ -8,15 +8,16 @@ html, body {
     -webkit-overflow-scrolling: touch;
 }
 
-p, ul, pre, h1, h2, h3, h4, h5, h6, h7, h8 {
+p, ul, pre, h1, h2, h3, h4, h5, h6 {
     margin: 1em 0;
 }
+
 
 p {
     display: block;
 }
 
-h1, h2, h3, h4, h5, h6, h7, h8 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
@@ -44,7 +45,7 @@ pre {
 
 }
 .navbar-default, .navbar-static-top {
-    background-color: #4D8618;
+    background-color: #337ab7;
     border: 0px;
 }
 a.navbar-brand {
@@ -118,11 +119,11 @@ a.navbar-brand {
 }
 
 .svg #band {
-    background-image: url(../img/grails-cupsonly-logo-white.svg);
+    background-image: url(../images/grails-cupsonly-logo-white.svg);
 }
 
 .no-svg #band {
-    background-image: url(../img/groovy-logo-white.png);
+    background-image: url(../images/grails-cupsonly-logo-white.svg);
 }
 
 @media (max-width: 1010px) {
@@ -280,9 +281,7 @@ article .content time {
     font-weight: bold;
 }
 
-#footer .colset-3-footer .col-1 h1, #footer .colset-3-footer .col-2 h1, #footer .colset-3-footer .col-3 h1 {
-    font-size: 15px !important;
-}
+
 
 .anchor-link:before {
     content: ' # ';
@@ -339,14 +338,9 @@ code, kbd, pre, samp {
     color: #db4800;
 }
 
-.colset-3-footer .col-1, .colset-3-footer .col-2, .colset-3-footer .col-3 {
-    min-width: 180px;
-    float: left;
-}
 
-.colset-3-footer .col-3 {
-    min-width: 220px;
-}
+
+
 
 .colset-3-article article {
     float: left;
@@ -422,87 +416,8 @@ h6 {
     color: #db4800;
 }
 
-h7 {
-    font-weight: bold;
-    color: #245f78;
-}
 
-h8 {
-    color: #245f78;
-}
 
-#footer {
-    background: #f2f2f2;
-    text-align: center;
-    font-size: 14px;
-    padding: 20px 0 30px;
-    margin-top: 30px;
-    color: #AAA
-}
-
-#footer .col-right {
-    float: right;
-    width: 300px;
-    text-align: right;
-    padding-top: 10px
-}
-
-#footer .colset-3-footer {
-    color: #222;
-    font-size: 14px
-}
-
-#footer .colset-3-footer:before, #footer .colset-3-footer:after {
-    content: " ";
-    display: table
-}
-
-#footer .colset-3-footer:after {
-    clear: both
-}
-
-#footer .colset-3-footer .col-1, #footer .colset-3-footer .col-2, #footer .colset-3-footer .col-3 {
-    width: 18%;
-    padding: 20px 0 30px;
-    padding-right: 3%;
-    float: left;
-    text-align: left
-}
-
-#footer .colset-3-footer .col-3 {
-    width: 24%;
-}
-
-#footer .colset-3-footer .col-1 h1, #footer .colset-3-footer .col-2 h1, #footer .colset-3-footer .col-3 h1 {
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 30px;
-    margin: 0
-}
-
-#footer .colset-3-footer .col-1 ul, #footer .colset-3-footer .col-2 ul, #footer .colset-3-footer .col-3 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0
-}
-
-#footer .colset-3-footer .col-1 ul li, #footer .colset-3-footer .col-2 ul li, #footer .colset-3-footer .col-3 ul li {
-    margin: 0;
-    padding: 0
-}
-
-#footer .colset-3-footer .col-1 ul li a, #footer .colset-3-footer .col-2 ul li a, #footer .colset-3-footer .col-3 ul li a {
-    color: #343437;
-    text-decoration: none
-}
-
-#footer .colset-3-footer .col-1 ul li a:hover, #footer .colset-3-footer .col-2 ul li a:hover, #footer .colset-3-footer .col-3 ul li a:hover {
-    text-decoration: underline
-}
-
-#footer .second a {
-    color: #db4800
-}
 
 .row {
     position: relative;
